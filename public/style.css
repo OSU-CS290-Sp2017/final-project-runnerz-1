@@ -1,0 +1,39 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.site-title
+{
+	background-color: #dc4405;
+	margin: 0;
+	padding: 20px;
+}
+.navbar
+{
+	margin: 0;
+	padding: 10px 0;
+	background-color: #dc4405;
+}
+
+.navlist
+{
+	margin: 0;
+	padding: 0 20px;
+	list-style-type: none;
+}
+
+.navlink
+{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.navlink a{
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid #000000;
+	color: #ffffff;
+}
