@@ -3,7 +3,7 @@ var fs = require("fs");
 var server = express();
 
 var indexHTML = fs.readFileSync("./public/index.html", "utf8");
-var calandarHTML = fs.readFileSync("./public/calandar.html", "utf8");
+var calendarHTML = fs.readFileSync("./public/calendar.html", "utf8");
 var picturesHTML = fs.readFileSync("./public/pictures.html", "utf8");
 var officersHTML = fs.readFileSync("./public/officers.html", "utf8");
 var indexJS = fs.readFileSync("./public/index.js", "utf8");
@@ -16,10 +16,10 @@ server.get("/*", function(req, res, next){
 		res.status(200);
 		res.end(indexHTML);
 	}
-	if(req.url == "/calandar")
+	if(req.url == "/calendar")
 	{
 		res.status(200);
-		res.end(calandarHTML);
+		res.end(calendarHTML);
 	}
 	if(req.url == "/pictures")
 	{
