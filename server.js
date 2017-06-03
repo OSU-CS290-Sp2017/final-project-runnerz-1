@@ -14,39 +14,34 @@ var indexJS = fs.readFileSync("./public/index.js", "utf8");
 var styleCSS = fs.readFileSync("./public/style.css", "utf8");
 var HTML404 = fs.readFileSync("./public/404.html", "utf8");*/
 
-server.get("/", function(req, res, next){
+server.get("/*", function(req, res, next){
 	if(req.url == "/")
 	{
 		var args = {"title": "OSU Running Club"};
 		res.render("home", args);
 	}
-	if(req.url == "/calendar")
+	else if(req.url == "/calendar")
 	{
 		var args = {"title": "OSU Running Club"};
 		res.render("calendar", args);
 	}
-	if(req.url == "/pictures")
+	else if(req.url == "/pictures")
 	{
 		var args = {"title": "OSU Running Club"};
 		res.render("pictures", args);
 	}
-	if(req.url == "/officers")
+	else if(req.url == "/officers")
 	{
 		var args = {"title": "OSU Running Club"};
 		res.render("officers", args);
 	}
-	if(req.url == "/style.css")
+	else
 	{
-		res.status(200);
-		res.end(styleCSS);
+		next();
 	}
-	if(req.url == "/index.js")
-	{
-		res.status(200);
-		res.end(indexJS);
-	}
-	next();
 });
+
+server.use(express.static("./public/"));
 
 server.get("*", function(req, res, next){
 	var args = {"title": "OSU Running Club (error 404)"};
