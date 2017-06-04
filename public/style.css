@@ -61,7 +61,7 @@ body
 }
 
 .main-container{
-
+	margin: 20px;
 }
 
 
@@ -69,8 +69,43 @@ body
 
 
 
+/************************ Officer Page ************************/
 
+/* Styling need improvement*/
+.officer-card-container{
+	margin: 50px 10%;
+	display: flex;
+	flex-wrap: wrap;
+}
 
+.officerCard{
+	flex: 0 1 28%;
+	display: flex;
+	margin: 2px;
+	padding: 20px;
+	border: 2px solid #dadada;
+	border-radius: 10px;
+	
+	box-sizing: border-box;
+}
+
+.name-container{
+	display: block;
+	margin: 20px;
+}
+
+.bio-container{
+	display: block;
+	margin: 20px;
+}
+.image-container{
+
+}
+
+.officer-photo{
+	max-width: 800px;
+	max-height: 800px;
+}
 
 
 

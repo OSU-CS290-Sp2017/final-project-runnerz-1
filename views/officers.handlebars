@@ -1,7 +1,11 @@
 {{> navbar}}
 
 <main>
-    <div class="main-container">
-      <p>Officers</p>
+    <div class="main-container" class="officer-card-container">
+	
+      	{{#each officers}}
+			{{> officerCard}}
+		{{/each}}
+		
     </div>
 </main>

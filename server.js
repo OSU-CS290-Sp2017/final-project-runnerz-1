@@ -6,6 +6,8 @@ var server = express();
 server.engine("handlebars", exphbs({defaultLayout: "main"}));
 server.set("view engine", "handlebars");
 
+var officerData = require("./officerData");
+
 /*var indexHTML = fs.readFileSync("./public/index.html", "utf8");
 var calendarHTML = fs.readFileSync("./public/calendar.html", "utf8");
 var picturesHTML = fs.readFileSync("./public/pictures.html", "utf8");
@@ -32,7 +34,8 @@ server.get("/*", function(req, res, next){
 	}
 	else if(req.url == "/officers")
 	{
-		var args = {"title": "OSU Running Club"};
+		var args = {"title": "OSU Running Club",
+		"officers": officerData};
 		res.render("officers", args);
 	}
 	else
