@@ -1,4 +1,5 @@
 var express = require("express");
+var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
 var fs = require("fs");
 
@@ -7,6 +8,8 @@ server.engine("handlebars", exphbs({defaultLayout: "main"}));
 server.set("view engine", "handlebars");
 
 var officerData = require("./officerData");
+var contactData = require("./contactData");
+
 
 /*var indexHTML = fs.readFileSync("./public/index.html", "utf8");
 var calendarHTML = fs.readFileSync("./public/calendar.html", "utf8");
@@ -42,6 +45,16 @@ server.get("/*", function(req, res, next){
 	{
 		next();
 	}
+});
+
+server.use(bodyParser.json());
+
+server.post("/addContact", function(req, res){
+	contactData.push(req.body);
+	fs.writeFile("./contactData.json", JSON.stringify(contactData, null, '\t'), function(err){});
+	console.log(contactData);
+	res.status(200);
+	res.end();
 });
 
 server.use(express.static("./public/"));
