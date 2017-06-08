@@ -1,19 +1,61 @@
 [
 	{
-		"name": "Evan Talen",
-		"title": "VP?",
-		"bio": "Hello I'm Evan SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "http://i.imgur.com/5AiDSSB.jpg"
-	},
-	{
 		"name": "Hudson Rennaker",
 		"title": "President",
 		"bio": "Hello I'm Hudson SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
 		"url": "http://i.imgur.com/8FTzBw9.jpg"
 	},
 	{
+		"name": "Evan Talan",
+		"title": "Vice President",
+		"bio": "Hello I'm Evan SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
+		"url": "http://i.imgur.com/5AiDSSB.jpg"
+	},
+	{
 		"name": "Mark Geisler",
 		"title": "Treasurer",
+		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
+		"url": "http://i.imgur.com/XHhD5tI.jpg"
+	},
+	{
+		"name": "Rylie Nikolaus",
+		"title": "Social Media Officer",
+		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
+		"url": "http://i.imgur.com/XHhD5tI.jpg"
+	},
+	{
+		"name": "Ayush Choudhury",
+		"title": "We Don't Know Yet",
+		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
+		"url": "http://i.imgur.com/XHhD5tI.jpg"
+	},
+	{
+		"name": "Ryan French",
+		"title": "Recruitment Officer",
+		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
+		"url": "http://i.imgur.com/XHhD5tI.jpg"
+	},
+	{
+		"name": "Mason Rouches",
+		"title": "TBH IDK but he run real fast",
+		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
+		"url": "http://i.imgur.com/XHhD5tI.jpg"
+	},
+	{
+		"name": "Miles Rouches",
+		"title": "Looks Like Mason",
+		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
+		"url": "http://i.imgur.com/XHhD5tI.jpg"
+	},
+	{
+		"name": "Ian Abbene",
+		"title": "Sprint Officer, Photographer",
+		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
+		"url": "http://i.imgur.com/XHhD5tI.jpg"
+	},
+	{
+		"name": "Evan Canizares",
+		"title": "Sprint Officer",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
 		"url": "http://i.imgur.com/XHhD5tI.jpg"
 	}

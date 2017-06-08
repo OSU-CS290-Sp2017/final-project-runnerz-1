@@ -76,36 +76,69 @@ body
 	margin: 50px 10%;
 	display: flex;
 	flex-wrap: wrap;
+
 }
 
 .officerCard{
 	flex: 0 1 28%;
 	display: flex;
-	margin: 2px;
-	padding: 20px;
+
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 2em;
+	margin-bottom: 2em;
 	border: 2px solid #dadada;
 	border-radius: 10px;
-	
 	box-sizing: border-box;
 }
 
 .name-container{
-	display: block;
-	margin: 20px;
+	float: left;
+	min-width: 150px;
+	max-width: 150px;
+	padding: 1em;
+
+	font-family: 'Arvo', serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+.title-container{
+	background-color: inherit;
+	padding-top: .5em;
+
+	font-size: .7em;
+	font-family: inherit;
+	font-style: italic;
+	text-align: inherit;
 }
 
 .bio-container{
-	display: block;
+	display: inline-block;
 	margin: 20px;
-}
-.image-container{
+	padding: 1em;
 
+	font-family: 'Fira Sans', sans-serif;
+	text-align: left;
+}
+
+/*NOT DONE STYLING IMAGES YET*/
+.image-container{
+	float: left;
 }
 
 .officer-photo{
-	max-width: 800px;
-	max-height: 800px;
+	/*float: right*/
+	padding: 1em;
+	display: inline-block;
+	position: relative;
+	/*photos are widthxheight 6x4 in dimensions -- this could change if it's easier*/
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
 }
+
+
 
 
 
