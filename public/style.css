@@ -7,6 +7,7 @@ body
 
 /************************ Navbar ************************/
 
+/**** Site Title ****/
 .site-title
 {
 	font-family: 'Arvo', serif;
@@ -17,17 +18,26 @@ body
 	font-size: 40px;
 }
 
+.site-title a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.site-title a:hover{
+	color: #fff;
+}
+
 /*OSU orange: #dc4405*/
 
+/**** NavBar ****/
 .navbar
 {
-	color: black;
+	color: #fff;
 	box-shadow: 0px .33em 5px #cecece;
 	font-family: 'Fira Sans', sans-serif;
 	margin: 0;
 	padding: .5em 0;
-	background-color: #fff;
-
+	background-color: #000;
 }
 
 .navlist {
@@ -45,7 +55,7 @@ body
 	text-decoration: none;
 	padding: .5em 1em;
 	/*border: 1px solid #000000;*/
-	color: #dc4405;
+	color: #fff;
 }
 
 .navlink a:hover{
@@ -53,7 +63,7 @@ body
 }
 
 .fa{
-	color: #dc4405;
+	color: #fff;
 	display: inline-block;
 	float: right;
 	padding: 0.1em 1em;
@@ -87,6 +97,7 @@ body
 	font-family: 'Fira Sans', sans-serif;
 }
 
+/**** Announcements ****/
 .announcement-container{
 	border: 2px solid #cecece;
 	box-shadow: 0px .33em 5px #cecece;
@@ -118,9 +129,20 @@ body
 }
 
 .announcement-sig{
+	display: flex;
+	flex-wrap: wrap;
 	font-style: italic;
 	color: #a3a3a3;
 	margin: 0;
+}
+
+/**** Page Tail..er ****/
+.tail-container{
+	background-color: #000;
+	color: #fff;
+	padding: 0.33em;
+	border-top: 2px solid #dc4405;
+	padding-left: 10px;
 }
 
 /************************ Officer Page ************************/
