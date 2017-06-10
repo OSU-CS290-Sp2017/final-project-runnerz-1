@@ -1,0 +1,23 @@
+[
+  {
+    "title" : "Announcement 1",
+    "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh, Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh, Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh ",
+    "author" : "Ian",
+    "url" : "./photos/malejerseys.jpg",
+    "url2" : "./photos/femalejerseys.jpg"
+  },
+  {
+    "title" : "Announcement 1",
+    "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh",
+    "author" : "Ian",
+    "url" : "./photos/malejerseys.jpg",
+    "url2" : "./photos/femalejerseys.jpg"
+  },
+  {
+    "title" : "Announcement 1",
+    "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh",
+    "author" : "Ian",
+    "url" : "./photos/malejerseys.jpg",
+    "url2" : "./photos/femalejerseys.jpg"
+  }
+]

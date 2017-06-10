@@ -4,6 +4,9 @@ body
 	padding: 0;
 	background-color: #ffffff;
 }
+
+/************************ Navbar ************************/
+
 .site-title
 {
 	font-family: 'Arvo', serif;
@@ -56,14 +59,69 @@ body
 	padding: 0.1em 1em;
 }
 
+/************************ Main Page ************************/
+
 .main-container{
 	margin: 20px;
 }
 
+/**** Contact Information ****/
+.contact-container{
+	box-shadow: 0px .33em 5px #cecece;
+	max-width: 50vw;
+	display: flex;
+	flex-wrap: wrap;
+}
 
+#name-input{
+	font-family: 'Fira Sans', sans-serif;
 
+}
 
+#email-input{
+	font-family: 'Fira Sans', sans-serif;
 
+}
+
+#contact-button{
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.announcement-container{
+	border: 2px solid #cecece;
+	box-shadow: 0px .33em 5px #cecece;
+	margin: 1em;
+}
+
+.announcement-title{
+	font-family: 'Arvo', serif;
+	font-size: 1.25em;
+	padding: 1em;
+}
+
+.announcement-content{
+	font-family: 'Fira Sans', sans-serif;
+	width: 100%;
+	padding: 1em;
+	padding-top: 0;
+}
+
+.announcement-images{
+	/*somehow align these within a row and flex them*/
+	padding: 1em;
+}
+
+.announcement-author{
+	font-family: 'Arvo', serif;
+	font-size: .75em;
+	padding: 1em;
+}
+
+.announcement-sig{
+	font-style: italic;
+	color: #a3a3a3;
+	margin: 0;
+}
 
 /************************ Officer Page ************************/
 
@@ -132,65 +190,4 @@ body
 	max-width: 300px;
 	max-height: 300px;
 	border-radius: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*dropdown menu------------------------------------------------*/
-
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-	  float:right;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: relative;
-    background-color: #f9f9f9;
-    min-width: 160px;
-		max-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
 }

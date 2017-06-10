@@ -3,6 +3,12 @@
 <main>
     <div class="main-container">
       <p>Home</p>
-	  {{> contact}}
+	 <div class="contact-container"> {{> contact}} </div>
+
+    {{#each announcements}}
+      {{> announcementTemplate}}
+    {{/each}}
     </div>
+
+
 </main>

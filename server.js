@@ -9,6 +9,7 @@ server.set("view engine", "handlebars");
 
 var officerData = require("./officerData");
 var contactData = require("./contactData");
+var announcements = require("./announcements");
 
 
 /*var indexHTML = fs.readFileSync("./public/index.html", "utf8");
@@ -22,7 +23,8 @@ var HTML404 = fs.readFileSync("./public/404.html", "utf8");*/
 server.get("/*", function(req, res, next){
 	if(req.url == "/")
 	{
-		var args = {"title": "OSU Running Club"};
+		var args = {"title": "OSU Running Club",
+		"announcements": announcements};
 		res.render("home", args);
 	}
 	else if(req.url == "/calendar")
