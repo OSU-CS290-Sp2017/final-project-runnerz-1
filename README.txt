@@ -1,8 +1,18 @@
-Running club website development
+Running Club Website Development
 
-Page ideas:
+Page Ideas:
 
-Main-General information, sign up links
-Schedule-calandar, meet schedule
-Camera Roll-hot pics from Ian
-Officers-meet Evan and friends
+Main
+  - Store Contact Info/Login to Gmail
+  - Announcements from Club Officers
+  - Dynamic content serving for Announcements for easy updates
+
+Schedule
+  - Embedded Google Calendar w/ meet schedule
+
+Camera Roll
+  - hot pics from Ian (do we need this?)
+
+Officers
+  - Bios and pictures in "officer card" format for officers
+  - Dynamic content serving for officer cards
