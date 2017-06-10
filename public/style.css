@@ -11,7 +11,7 @@ body
 .site-title
 {
 	font-family: 'Arvo', serif;
-	color: black;
+	color: #fff;
 	background-color: #dc4405;
 	margin: 0;
 	padding: .8em 1em;
@@ -77,47 +77,140 @@ body
 
 /**** Contact Information ****/
 .contact-container{
-	box-shadow: 0px .33em 5px #cecece;
-	max-width: 50vw;
-	display: flex;
-	flex-wrap: wrap;
+	float: center;
+	margin: 1em;
+	margin-bottom: 2em;
+	position: static;
+	background-color: #f7f7f7;
+	border: 2px solid #cecece;
+	min-width: 200px;
+	max-width: 97.5vw;
+}
+
+.signups-container{
+	background-color: #fff;
+	padding: .1em 1em;
+	text-align: center;
+	max-width: inherit;
+}
+
+.signups{
+	font-family: 'Fira Sans', sans-serif;
+	color: #000;
+	background-color: #fff;
+}
+
+/*HOW DO I GET THIS SHIT IN THE CENTER*/
+.input-container{
+	background-color: #f7f7f7;
+	padding: 1em 30%;
+	max-width: 97.5vw;
+	min-width: none;
 }
 
 #name-input{
 	font-family: 'Fira Sans', sans-serif;
+	color: grey;
+	background-color: #fff;
+	position:static;
+	vertical-align: middle;
+	display: inline-block;
+	height: 26px;
+	width: 150px;
+	font-size: .75em;
+	text-align: center;
+	transition: 0.5s;
+	padding: 0 20px;
+	border: 2px solid #cecece;
+	float: center;
+}
 
+#name-input.focus{
+	outline: none;
+	outline-width: 0;
 }
 
 #email-input{
 	font-family: 'Fira Sans', sans-serif;
+	color: grey;
+	background-color: #fff;
+	position:static;
+	vertical-align: middle;
+	display: inline-block;
+	height: 26px;
+	width: 150px;
+	font-size: .75em;
+	text-align: center;
+	transition: 0.5s;
+	padding: 0 20px;
+	border: 2px solid #cecece;
+	float: center;
 
 }
 
 #contact-button{
 	font-family: 'Fira Sans', sans-serif;
+	color: #dc4405;
+	background-color: #fff;
+	position:relative;
+	vertical-align: middle;
+	height: 30px;
+	width: 150px;
+	font-size: .75em;
+	text-align: center;
+	transition: 0.5s;
+	padding: 0 25px;
+	cursor: pointer;
+	border: 2px solid #dc4405;
+	-webkit-transition:0.5s;
 }
+
+#contact-button:hover{
+	border: 2px solid #dc4405;
+	color: #dc4405;
+	background-color: #000;
+}
+
+#contact-button::before, #contact-button::after {
+  width: 100%;
+  height:100%;
+  z-index: 3;
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
+}
+
 
 /**** Announcements ****/
 .announcement-container{
 	border: 2px solid #cecece;
 	box-shadow: 0px .33em 5px #cecece;
 	margin: 1em;
+	background-color: #f7f7f7;
 }
 
 .announcement-title{
+	background-color: #fff;
+	padding: 1em;
+
 	font-family: 'Arvo', serif;
 	font-size: 1.25em;
-	padding: 1em;
+	text-decoration: underline;
 }
 
 .announcement-content{
+	background-color: #fff;
 	font-family: 'Fira Sans', sans-serif;
-	width: 100%;
 	padding: 1em;
 	padding-top: 0;
 }
 
 .announcement-images{
+	background-color: #fff;
 	/*somehow align these within a row and flex them*/
 	padding: 1em;
 }
@@ -136,13 +229,22 @@ body
 	margin: 0;
 }
 
+.announcement-date{
+	display: inline;
+}
+
 /**** Page Tail..er ****/
 .tail-container{
-	background-color: #000;
+	font-family: 'Times', serif;
+	background-color: #000000;
 	color: #fff;
 	padding: 0.33em;
 	border-top: 2px solid #dc4405;
-	padding-left: 10px;
+	padding-left: 30px;
+}
+
+.fa-copyright{
+	float: none;
 }
 
 /************************ Officer Page ************************/
