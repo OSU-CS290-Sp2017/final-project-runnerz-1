@@ -339,7 +339,7 @@ body
 	font-size: 4em;
 	text-align: center;
 	margin: 0;
-	color: #dc4405;
+	color: #fff;
 	padding: 30px;
 	padding-bottom: 10px;
 	padding-top: 25%;
@@ -352,7 +352,7 @@ body
 	text-align: center;
 	font-family: 'Fira Sans', sans-serif;
 	font-style: italic;
-	color: #fff;
+	color: #dc4405;
 
 }
 
