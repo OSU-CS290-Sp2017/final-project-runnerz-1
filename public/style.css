@@ -2,7 +2,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background-color: #ffffff;
+	background-color: #fff;
 }
 
 /************************ Navbar ************************/
@@ -269,6 +269,8 @@ body
 	border: 2px solid #dadada;
 	border-radius: 10px;
 	box-sizing: border-box;
+	box-shadow: 0px .33em 5px #cecece;
+
 }
 
 .name-container{
@@ -320,13 +322,36 @@ body
 
 /************************ 404 Page ************************/
 .not-found-container {
+	border-radius: 50%;
+	background-color: #000;
+	max-width: 500px;
+	max-height: 500px;
+	min-width: 500px;
+	min-height: 500px;
+	width: 50%;
+	margin: auto;
+}
+
+.error-404{
+	font-family: 'Arvo', serif;
+	font-size: 4em;
+	text-align: center;
+	margin: 0;
+	color: #dc4405;
+	padding: 30px;
+	padding-bottom: 10px;
+	padding-top: 25%;
 
 }
 
 .para-not-found {
-	font-size: 32px;
+	font-size: 2em;
 	display: block;
 	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: italic;
+	color: #fff;
+
 }
 
 /************************ Camera Roll Page ************************/

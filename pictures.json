@@ -1,22 +1,27 @@
 [
   {
     "url" : "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
-    "title" : "Picture 1"
+    "title" : "Picture 1",
+    "caption" : "This is a cat"
   },
   {
     "url" : "https://static.pexels.com/photos/20787/pexels-photo.jpg",
-    "title" : "Picture 2"
+    "title" : "Picture 2",
+    "caption" : "This is a cat"
   },
   {
     "url" : "https://www.petfinder.com/wp-content/uploads/2012/11/140272627-grooming-needs-senior-cat-632x475.jpg",
-    "title" : "Picture 3"
+    "title" : "Picture 3",
+    "caption" : "This is a cat"
   },
   {
     "url" : "https://static.pexels.com/photos/60224/pexels-photo-60224.jpeg",
-    "title" : "Picture 4"
+    "title" : "Picture 4",
+    "caption" : "This is a cat"
   },
   {
     "url" : "https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg",
-    "title" : "Picture 5"
+    "title" : "Picture 5",
+    "caption" : "This is a cat"
   }
 ]
