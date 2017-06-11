@@ -330,6 +330,8 @@ body
 	min-height: 500px;
 	width: 50%;
 	margin: auto;
+	border: 15px solid #dc4405;
+
 }
 
 .error-404{
