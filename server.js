@@ -10,6 +10,7 @@ server.set("view engine", "handlebars");
 var officerData = require("./officerData");
 var contactData = require("./contactData");
 var announcements = require("./announcements");
+var pictures = require("./pictures");
 
 
 /*var indexHTML = fs.readFileSync("./public/index.html", "utf8");
@@ -34,7 +35,8 @@ server.get("/*", function(req, res, next){
 	}
 	else if(req.url == "/pictures")
 	{
-		var args = {"title": "OSU Running Club"};
+		var args = {"title": "OSU Running Club",
+								"photo": pictures};
 		res.render("pictures", args);
 	}
 	else if(req.url == "/officers")

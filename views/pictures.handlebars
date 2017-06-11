@@ -1,7 +1,10 @@
 {{> navbar}}
 
 <main>
-    <div class="main-container">
-      <p>Pictures</p>
+    <div class="main-container image-cont">
+      <!-- <p>Pictures</p> -->
+      {{#each photo}}
+        {{> picture}}
+      {{/each}}
     </div>
 </main>

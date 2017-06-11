@@ -317,3 +317,39 @@ body
 	max-height: 300px;
 	border-radius: 50%;
 }
+
+/************************ 404 Page ************************/
+.not-found-container {
+
+}
+
+.para-not-found {
+	font-size: 32px;
+	display: block;
+	text-align: center;
+}
+
+/************************ Camera Roll Page ************************/
+.camera-photo {
+	padding: 1em;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+}
+
+.camera-card {
+	flex: 0 1 28%;
+  display: flex;
+	width: 300px;
+  margin: 2px;
+  padding: 20px;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.image-cont {
+	margin: 50px 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
