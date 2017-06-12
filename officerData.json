@@ -3,72 +3,72 @@
 		"name": "Hudson Rennaker",
 		"title": "President",
 		"bio": "Hello I'm Hudson SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/hudson.jpg"
+		"url": "./photos/officer-hudson.jpg"
 	},
 	{
 		"name": "Evan Talan",
 		"title": "Vice President",
 		"bio": "Hello I'm Evan SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/evan.jpg"
+		"url": "./photos/officer-evan.jpg"
 	},
 	{
 		"name": "Mark Geisler",
 		"title": "Treasurer",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/mark.jpg"
+		"url": "./photos/officer-mark.jpg"
 	},
 	{
 		"name": "Rylie Nikolaus",
 		"title": "Social Media Officer",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/mark.jpg"
+		"url": "./photos/officer-mark.jpg"
 	},
 	{
 		"name": "Becca Crawford",
 		"title": "We Don't Know Yet",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/mark.jpg"
+		"url": "./photos/officer-mark.jpg"
 	},
 	{
 		"name": "Ryan French",
 		"title": "Recruitment Officer",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/mark.jpg"
+		"url": "./photos/officer-mark.jpg"
 	},
 	{
 		"name": "Mason Rouches",
 		"title": "TBH IDK but he run real fast",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/mark.jpg"
+		"url": "./photos/officer-mark.jpg"
 	},
 	{
 		"name": "Miles Rouches",
 		"title": "Looks Like Mason",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/mark.jpg"
+		"url": "./photos/officer-mark.jpg"
 	},
 	{
 		"name": "Ian Abbene",
 		"title": "Sprint Officer, Photographer",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/mark.jpg"
+		"url": "./photos/officer-mark.jpg"
 	},
 	{
 		"name": "Evan Canizares",
 		"title": "Sprint Officer",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/mark.jpg"
+		"url": "./photos/officer-mark.jpg"
 	},
 	{
 		"name": "Glen Anderson",
 		"title": "We don't know yet",
 		"bio": "Hello I'm Mark SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT",
-		"url": "./photos/mark.jpg"
+		"url": "./photos/officer-mark.jpg"
 	},
 	{
 		"name": "Ayush Choudhury",
 		"title": "We don't kNOW OKAY",
 		"bio": "Hello I'm Ayush Choudhury, the greatest being ever to exist. Although I technically am human, calling me as such would be a degrading insult to my god-like physique. I am barely a mortal. When addressing me, do not call me by name, but only address me as 'your amazingness,' else face the wrath of Ayush.",
-		"url": "./photos/ayush.jpg"
+		"url": "./photos/officer-ayush.jpg"
 	}
 ]
