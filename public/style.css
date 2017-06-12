@@ -186,6 +186,14 @@ body
   transition: 0.5s;
 }
 
+.error-message{
+	color: red;
+}
+
+.hidden{
+	display:none;
+}
+
 
 /**** Announcements ****/
 .announcement-container{

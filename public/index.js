@@ -25,11 +25,15 @@ function handleContact()
 	var nameInput = nameInputBox.value;
 	var emailInputBox = document.querySelector("#email-input");
 	var emailInput = emailInputBox.value;
+	var errorBox = document.querySelector(".error-message");
+	if(!errorBox.classList.contains("hidden"))
+		errorBox.classList.add("hidden");
+	
 	if(nameInput != "" && emailInput != "")
 	{
 		if(nameInput.includes(" "))
 		{
-			if(emailInput.includes(".") && emailInput.includes("@"))
+			if(emailInput.includes(".") && emailInput.includes("@") && !emailInput.includes(" "))
 			{
 				storeContact(nameInput, emailInput, function (error) {
 					if (error) {
@@ -43,17 +47,23 @@ function handleContact()
 			}
 			else
 			{
-				alert("Please enter valid email");
+				errorBox.innerHTML = "Error: Enter a valid email";
+				if(errorBox.classList.contains("hidden"))
+					errorBox.classList.remove("hidden");
 			}
 		}
 		else
 		{
-			alert("Please include first and last name");
+			errorBox.innerHTML = "Error: Enter your first and last name";
+			if(errorBox.classList.contains("hidden"))
+				errorBox.classList.remove("hidden");
 		}
 	}
 	else
 	{
-		//Display "fields empty"
+		errorBox.innerHTML = "Error: Missing or empty field";
+		if(errorBox.classList.contains("hidden"))
+			errorBox.classList.remove("hidden");
 	}
 }
 
