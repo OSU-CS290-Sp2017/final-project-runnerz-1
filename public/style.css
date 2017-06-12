@@ -188,6 +188,16 @@ body
   transition: 0.5s;
 }
 
+.error-message{
+	color: red;
+	margin: 0;
+}
+
+.hidden{
+	display:none;
+}
+
+
 
 /**** Announcements ****/
 .announcement-container{

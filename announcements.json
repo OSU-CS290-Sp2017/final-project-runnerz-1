@@ -3,24 +3,26 @@
     "title" : "Announcement 3",
     "content" : "Hey I'm Kyle this is our first announcement!",
     "author" : "Kyle",
-    "url" : "./photos/jersey.jpg",
-    "url2": "./photos/emrunning.jpg",
+	"urls": [
+				{"url": "./photos/jersey.jpg"},
+				{"url": "./photos/emrunning.jpg"}
+			],
     "date" : "7/9/17"
   },
   {
     "title" : "Announcement 2",
     "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh",
     "author" : "Ian",
-    "url" : "./photos/practice.jpg",
-    "url2" : "",
+    "urls" : [
+				{"url": "./photos/practice.jpg"}
+			],
     "date" : "7/9/17"
   },
   {
     "title" : "Announcement 1",
     "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh",
     "author" : "Ian",
-    "url" : "",
-    "url2" : "",
+    "urls" : [ ],
     "date" : "7/9/17"
   }
 ]
