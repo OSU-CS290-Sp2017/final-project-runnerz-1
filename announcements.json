@@ -1,10 +1,10 @@
 [
   {
     "title" : "Announcement 3",
-    "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh, Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh, Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh ",
-    "author" : "Ian",
+    "content" : "Hey I'm Kyle this is our first announcement!",
+    "author" : "Kyle",
     "url" : "./photos/jersey.jpg",
-    "url2": "./photos/mason.jpg",
+    "url2": "./photos/emrunning.jpg",
     "date" : "7/9/17"
   },
   {
