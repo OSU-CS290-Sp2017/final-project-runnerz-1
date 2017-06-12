@@ -381,7 +381,16 @@ body
 	padding: 1em;
 	max-width: 300px;
 	max-height: 300px;
-	border-radius: 50%;
+	border-radius: 5%;
+}
+
+.camera-photo:hover {
+	box-shadow: 0px .33em 5px #cecece;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
 .camera-card {
@@ -391,6 +400,7 @@ body
   margin: 2px;
   padding: 20px;
   border: 1px solid #dadada;
+	box-shadow: 0px .33em 5px #cecece;
   border-radius: 2px;
   background-color: #fff;
 }
