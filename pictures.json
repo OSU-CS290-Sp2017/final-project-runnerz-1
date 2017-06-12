@@ -1,27 +1,77 @@
 [
   {
     "url" : "./photos/photo-IM_Meet1.jpg",
-    "title" : "Picture 1",
-    "caption" : "IM Meet"
+    "title" : "IM Meet 1",
+    "caption" : "Winning 4x400m team"
   },
   {
     "url" : "./photos/photo-IM_Meet2.jpg",
-    "title" : "Picture 2",
-    "caption" : "IM Meet"
+    "title" : "IM Meet 2",
+    "caption" : "Ian and his bro"
+  },
+   {
+    "url" : "./photos/photo-IM_Meet3.jpg",
+    "title" : "IM Meet 3",
+    "caption" : "The IM Champions"
   },
   {
     "url" : "./photos/photo-LinfieldOpen1.jpg",
-    "title" : "Picture 3",
-    "caption" : "This is not a cat"
+    "title" : "Linfield Open 1",
+    "caption" : "Hudson, Nic, and Fundrew in the 1500m"
   },
   {
     "url" : "./photos/photo-LinfieldOpen2.jpg",
-    "title" : "Picture 4",
-    "caption" : "This is not a cat"
+    "title" : "Linfield Open 2",
+    "caption" : "Mason and Josh starting the 5k"
+  },
+  {
+    "url" : "./photos/photo-LinfieldOpen3.jpg",
+    "title" : "Linfield Open 3",
+    "caption" : "Cheerleading squad"
+  },
+  {
+    "url" : "./photos/photo-LinfieldOpen4.jpg",
+    "title" : "Linfield Open 4",
+    "caption" : "Ayush warming up"
+  },
+  {
+    "url" : "./photos/photo-LinfieldOpen5.jpg",
+    "title" : "Linfield Open 5",
+    "caption" : "Evan in the 1500m"
+  },
+  {
+    "url" : "./photos/photo-LinfieldOpen6.jpg",
+    "title" : "Linfield Open 6",
+    "caption" : "Start of the 1500m"
+  },
+  {
+    "url" : "./photos/photo-LinfieldOpen7.jpg",
+    "title" : "Linfield Open 7",
+    "caption" : "Austin warming up"
+  },
+  {
+    "url" : "./photos/photo-LinfieldOpen8.jpg",
+    "title" : "Linfield Open 8",
+    "caption" : "Evan tying his shoes"
+  },
+  {
+    "url" : "./photos/photo-LinfieldOpen9.jpg",
+    "title" : "Linfield Open 9",
+    "caption" : "Tess in the 400m"
+  },
+  {
+    "url" : "./photos/photo-LinfieldOpen10.jpg",
+    "title" : "Linfield Open 10",
+    "caption" : "Evan winning the 100m"
+  },
+  {
+    "url" : "./photos/photo-LinfieldOpen11.jpg",
+    "title" : "Linfield Open 11",
+    "caption" : "Evan and his bro"
   },
   {
     "url" : "./photos/photo-practice1.jpg",
-    "title" : "Picture 5",
+    "title" : "Practice 1",
     "caption" : "This is not a cat"
   }
 ]
