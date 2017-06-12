@@ -190,7 +190,9 @@ body
 
 .error-message{
 	color: red;
-	margin: 0;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 600;
+	text-align: center;
 }
 
 .hidden{
