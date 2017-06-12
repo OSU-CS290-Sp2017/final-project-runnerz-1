@@ -12,16 +12,16 @@
   {
     "url" : "./photos/photo-LinfieldOpen1.jpg",
     "title" : "Picture 3",
-    "caption" : "This is a cat"
+    "caption" : "This is not a cat"
   },
   {
     "url" : "./photos/photo-LinfieldOpen2.jpg",
     "title" : "Picture 4",
-    "caption" : "This is a cat"
+    "caption" : "This is not a cat"
   },
   {
     "url" : "./photos/photo-practice1.jpg",
     "title" : "Picture 5",
-    "caption" : "This is a cat"
+    "caption" : "This is not a cat"
   }
 ]
