@@ -11,7 +11,7 @@ body
 .site-title
 {
 	font-family: 'Arvo', serif;
-	color: #fff;
+	color: #000;
 	background-color: #dc4405;
 	margin: 0;
 	padding: .8em 1em;
@@ -75,6 +75,8 @@ body
 	margin: 20px;
 }
 
+
+
 /**** Contact Information ****/
 .contact-container{
 	float: center;
@@ -102,12 +104,13 @@ body
 	background-color: #fff;
 }
 
-/*HOW DO I GET THIS SHIT IN THE CENTER*/
 .input-container{
 	background-color: #f7f7f7;
-	padding: 1em 30%;
+	padding: 1em 10px;
 	max-width: 97.5vw;
 	min-width: none;
+	display: flex;
+	justify-content: center;
 }
 
 #name-input{
@@ -124,7 +127,7 @@ body
 	transition: 0.5s;
 	padding: 0 20px;
 	border: 2px solid #cecece;
-	float: center;
+	display: inline-block;
 }
 
 #name-input.focus{
@@ -138,7 +141,6 @@ body
 	background-color: #fff;
 	position:static;
 	vertical-align: middle;
-	display: inline-block;
 	height: 26px;
 	width: 150px;
 	font-size: .75em;
@@ -146,8 +148,7 @@ body
 	transition: 0.5s;
 	padding: 0 20px;
 	border: 2px solid #cecece;
-	float: center;
-
+	display: inline-block;
 }
 
 #contact-button{
@@ -165,6 +166,7 @@ body
 	cursor: pointer;
 	border: 2px solid #dc4405;
 	-webkit-transition:0.5s;
+	display: inline-block;
 }
 
 #contact-button:hover{
@@ -184,14 +186,6 @@ body
   box-sizing: border-box;
   -webkit-transform: scale(0);
   transition: 0.5s;
-}
-
-.error-message{
-	color: red;
-}
-
-.hidden{
-	display:none;
 }
 
 
@@ -225,6 +219,14 @@ body
 	padding: 1em;
 }
 
+.announcement-images img{
+	border-radius: 0;
+	max-width: 400px;
+	max-height: 400px;
+	min-height: 100px;
+	min-width: 100px;
+}
+
 .announcement-author{
 	font-family: 'Arvo', serif;
 	font-size: .75em;
@@ -241,8 +243,6 @@ body
 
 .announcement-date{
 	display: inline;
-	float: right;
-	color: #a3a3a3;
 }
 
 /**** Page Tail..er ****/

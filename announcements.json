@@ -1,32 +1,26 @@
 [
   {
     "title" : "Announcement 3",
-    "content" : "Now look at this jersey, that I just found!",
-    "author" : "Kyle",
-    "urls" : [
-				{"url": "./photos/malejerseys.jpg"},
-				{"url": "./photos/femalejerseys.jpg"}
-			],
-	"date" : "6/11/2017"
+    "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh, Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh, Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh ",
+    "author" : "Ian",
+    "url" : "./photos/jersey.jpg",
+    "url2": "./photos/mason.jpg",
+    "date" : "7/9/17"
   },
   {
     "title" : "Announcement 2",
     "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh",
     "author" : "Ian",
-    "urls" : [
-				{"url": "./photos/malejerseys.jpg"}
-			],
-	"date" : "6/10/2017"
+    "url" : "./photos/practice.jpg",
+    "url2" : "",
+    "date" : "7/9/17"
   },
   {
     "title" : "Announcement 1",
     "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh",
     "author" : "Ian",
-    "urls" : [
-				{"url": "./photos/malejerseys.jpg"},
-				{"url": "./photos/femalejerseys.jpg"},
-				{"url": "./photos/femalejerseys.jpg"}
-			] ,
-	"date" : "6/8/2017"
+    "url" : "",
+    "url2" : "",
+    "date" : "7/9/17"
   }
 ]
