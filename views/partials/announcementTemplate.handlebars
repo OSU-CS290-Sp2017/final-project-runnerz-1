@@ -2,15 +2,19 @@
   <div class="announcement-title">
     {{title}}
   </div>
+  
   <div class="announcement-content">
     {{content}}
   </div>
+  
   <div class="announcement-images">
-    {{url}}
-    {{url2}}
+	{{#each urls}}
+		<img class="announcement-picture" src = "{{url}}"/>
+	{{/each}}
   </div>
+  
   <div class="announcement-author">
-  <p class="announcement-sig">Post By: </p>  {{author}}
+	<p class="announcement-sig">Post By: </p> {{author}}
+	<p class="announcement-date"> {{date}} </p> 
   </div>
-
 </div>
