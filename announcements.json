@@ -11,7 +11,7 @@
   },
   {
     "title" : "Announcement 2",
-    "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh",
+    "content" : "Here's our second announcement! This is cool ain't it?",
     "author" : "Ian",
     "urls" : [
 				{"url": "./photos/practice.jpg"}
@@ -20,7 +20,7 @@
   },
   {
     "title" : "Announcement 1",
-    "content" : "Blargh Blargh Blargh Blargh Blargh Blargh Blargh Blargh",
+    "content" : "This is the announcements feed where we wil post announcements to keep you updated as to what is happening in the club.",
     "author" : "Ian",
     "urls" : [ ],
     "date" : "7/9/17"
