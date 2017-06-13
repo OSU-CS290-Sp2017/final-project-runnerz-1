@@ -47,21 +47,21 @@ function handleContact()
 			}
 			else
 			{
-				errorBox.innerHTML = "Error: Enter a valid email";
+				errorBox.innerHTML = "Please enter a valid email.";
 				if(errorBox.classList.contains("hidden"))
 					errorBox.classList.remove("hidden");
 			}
 		}
 		else
 		{
-			errorBox.innerHTML = "Error: Enter your first and last name";
+			errorBox.innerHTML = "Please enter your first and last name.";
 			if(errorBox.classList.contains("hidden"))
 				errorBox.classList.remove("hidden");
 		}
 	}
 	else
 	{
-		errorBox.innerHTML = "Error: Missing or empty field";
+		errorBox.innerHTML = "Please complete both fields.";
 		if(errorBox.classList.contains("hidden"))
 			errorBox.classList.remove("hidden");
 	}

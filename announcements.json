@@ -1,13 +1,13 @@
 [
   {
     "title" : "Announcement 3",
-    "content" : "Hey I'm Kyle this is our first announcement!",
+    "content" : "Hey I'm Kyle and this is our third announcement!",
     "author" : "Kyle",
 	"urls": [
 				{"url": "./photos/jersey.jpg"},
 				{"url": "./photos/emrunning.jpg"}
 			],
-    "date" : "7/9/17"
+    "date" : "6/13/17"
   },
   {
     "title" : "Announcement 2",
@@ -16,13 +16,13 @@
     "urls" : [
 				{"url": "./photos/practice.jpg"}
 			],
-    "date" : "7/9/17"
+    "date" : "6/3/17"
   },
   {
     "title" : "Announcement 1",
-    "content" : "This is the announcements feed where we wil post announcements to keep you updated as to what is happening in the club.",
+    "content" : "This is the announcements feed where we will post announcements to keep you updated as to what is happening in the club.",
     "author" : "Ian",
     "urls" : [ ],
-    "date" : "7/9/17"
+    "date" : "6/2/17"
   }
 ]
